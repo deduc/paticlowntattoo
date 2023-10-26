@@ -1,11 +1,9 @@
-<div class="py-5 bg-primary">
-
-    <p><b>Titulo: </b>{{tituloTipotrabajo}}</p>
-    <div class="d-flex align-items-center gap-5 flex-row flex-wrap">
-        <img *ngFor="let imagen of listaImagenes" [src]="imagen.imgSrc" class="img-pequenia" alt="texto alternativo">
-
-        <button mat-fab color="warn">
-            <mat-icon>add</mat-icon>
-        </button>
+<div class="py-5">
+    <p class="display-6 pb-lg-0 pb-3">{{tituloTipotrabajo}}</p>
+    
+    <div class="d-flex align-items-center gap-lg-5 gap-4 flex-row flex-wrap ms-lg-5">
+        <span *ngFor="let imagen of listaImagenes" >
+            <img [src]="imagen.imgSrc" class="img-pequenia img-hover my-img-border" alt="texto alternativo" (click)="visualizarDisenio(imagen.imgSrc)">
+        </span>
     </div>
 </div>

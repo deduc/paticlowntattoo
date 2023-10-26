@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 // mis modulos
 import { SharedModule } from './shared/shared.module';
 import { PagesModule } from './pages/pages.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // modulo enrutamiento
 import { AppRoutingModule } from './app-routing.module';
-
+// modulo bootstrap
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -18,10 +18,10 @@ import { AppRoutingModule } from './app-routing.module';
     ],
     imports: [
         AppRoutingModule,
-        BrowserAnimationsModule,
         BrowserModule,
         PagesModule,
         SharedModule,
+        NgbModule,
     ],
     providers: [],
     bootstrap: [AppComponent]

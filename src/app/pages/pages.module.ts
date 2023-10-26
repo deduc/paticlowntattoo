@@ -2,29 +2,35 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 // mis componentes
+import { BiografiaComponent } from './biografia/biografia.component';
 import { HomeComponent } from './home/home.component';
+import { TituloPaginaComponent } from './titulo-pagina/titulo-pagina.component';
 
 // mis modulos
+import { HeaderModule } from './header/header.module';
 import { MisDiseniosModule } from './mis-disenios/mis-disenios.module';
 import { MisTrabajosModule } from './mis-trabajos/mis-trabajos.module';
 import { SharedModule } from '../shared/shared.module';
-import { HeaderComponent } from './header/header.component';
-import { TituloPaginaComponent } from './titulo-pagina/titulo-pagina.component';
-import { BiografiaComponent } from './biografia/biografia.component';
+// angular material
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
     declarations: [
-        HomeComponent,
-        HeaderComponent,
-        TituloPaginaComponent,
         BiografiaComponent,
+        HomeComponent,
+        TituloPaginaComponent,
     ],
     imports: [
         CommonModule,
+        HeaderModule,
         MisDiseniosModule,
         MisTrabajosModule,
         SharedModule,
+        // modulos angular material
+        MatToolbarModule,
+        MatIconModule,
     ],
     exports: [
     ]

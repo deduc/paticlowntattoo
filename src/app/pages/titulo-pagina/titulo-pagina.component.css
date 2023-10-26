@@ -1,6 +1,9 @@
-.custom-padding{
-
+.img-fondo{
+    background-image: url("src/assets/elden rin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 @media (min-width:992px) {
     .custom-padding{

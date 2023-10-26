@@ -2,6 +2,14 @@
     width: 150px;
 }
 
-.margin-left{
-    /* margin-left: 200px */
+.img-hover{
+    transition: 1s;
+}
+
+.img-hover:hover{
+    width: 200px;
+}
+
+.my-img-border{
+    border: 1px solid black;
 }
