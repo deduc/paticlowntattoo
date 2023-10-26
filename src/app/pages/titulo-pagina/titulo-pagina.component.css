@@ -1,0 +1,36 @@
+.custom-padding{
+
+}
+
+@media (min-width:992px) {
+    .custom-padding{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+
+    .custom-padding h1{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width:993px) {
+    .custom-padding{
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+
+    .custom-padding h1{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width:768px) {
+    .custom-padding{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .custom-padding h1{
+        font-size: 2rem;
+    }
+}

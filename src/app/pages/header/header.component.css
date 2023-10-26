@@ -1,0 +1,18 @@
+.filtro-negativo{
+    filter: invert();
+}
+
+.altura-fija-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.hover-transformacion:hover{
+    width: 5rem;
+    height: 5rem;
+}
+
+.custom-padding{
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
