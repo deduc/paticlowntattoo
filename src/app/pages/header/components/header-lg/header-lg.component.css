@@ -1,0 +1,45 @@
+.custom-position{
+    position: sticky;
+    top: 0px;
+}
+
+.custom-font-size{
+    font-size: 1.5rem;
+}
+
+.custom-padding-right{
+    padding-right: 1rem;
+}
+
+.filtro-negativo{
+    filter: invert();
+}
+
+.altura-fija-img{
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+
+.texto-grande{
+    font-size: 1.25rem;
+}
+
+
+/* pruebas kekw */
+.borde-rojo{
+    border: 1px solid red;
+}
+
+.texto-grande{
+    font-size: 2rem;
+}
+
+.texto-mediano{
+    font-size: 1rem;
+}
+
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
