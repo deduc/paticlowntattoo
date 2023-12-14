@@ -8,15 +8,20 @@
             
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 1rem;">
             <ul class="navbar-nav me-auto d-flex justify-content-end gap-3">
-                <li class="nav-item d-flex gap-3">
-                    <img class="filtro-negativo altura-fija-img" src="/assets/iconos/instagram.png" alt="img-red-social">
-                    <span class="text-white">Instagram</span>
+                <li>
+                    <a class="nav-item d-flex gap-3" href="https://www.instagram.com/paticl0wn.tattoo/">
+                        <img class="filtro-negativo altura-fija-img" src="/assets/iconos/instagram.png" alt="img-red-social">
+                        <span class="text-white">Instagram</span>
+                    </a>
                 </li>
-                <li class="nav-item d-flex gap-3">
-                    <img class="filtro-negativo altura-fija-img" src="/assets/iconos/tiktok.png" alt="img-red-social">
-                    <span class="text-white">TikTok</span>
+                <li>
+                    <!-- todo link tiktok -->
+                    <a class="nav-item d-flex gap-3" href="">
+                        <img class="filtro-negativo altura-fija-img" src="/assets/iconos/tiktok.png" alt="img-red-social">
+                        <span class="text-white">TikTok</span>
+                    </a>
                 </li>
-                <li class="nav-item d-flex gap-3">
+                <li class="nav-item d-flex gap-3" (click)="mostrarUbicacion()">
                     <img class="filtro-negativo altura-fija-img" src="/assets/iconos/location.png" alt="img-red-social">
                     <span class="text-white">Ubicación</span>
                 </li>

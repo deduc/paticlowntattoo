@@ -14,6 +14,7 @@ import { SharedModule } from '../shared/shared.module';
 // angular material
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { MatIconModule } from '@angular/material/icon';
         // modulos angular material
         MatToolbarModule,
         MatIconModule,
+        MatDialogModule,
     ],
     exports: [
     ]

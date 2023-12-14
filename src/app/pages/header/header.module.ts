@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HeaderComponent } from './header.component';
 import { HeaderLgComponent } from './components/header-lg/header-lg.component';
 import { HeaderSmMdComponent } from './components/header-sm-md/header-sm-md.component';
+import { DialogMapComponent } from './components/dialog-map/dialog-map.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HeaderSmMdComponent } from './components/header-sm-md/header-sm-md.comp
     declarations: [
         HeaderComponent,
         HeaderLgComponent,
-        HeaderSmMdComponent
+        HeaderSmMdComponent,
+        DialogMapComponent
     ],
     providers: [],
 })
